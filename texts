@@ -1,0 +1,5 @@
+docker run --name mongodb \
+-e MONGODB_USERNAME=admin \
+-e MONGODB_PASSWORD=docker \
+-e MONGODB_DATABASE=netflix \
+bitnami/mongodb:latest
